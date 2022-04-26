@@ -5,10 +5,15 @@ UNI: yz4131
 
 Running Instructions:
 + 1. Run Distance Vector Regular Mode:
+
   python3 routenode.py dv <r> 0 <local-port> <neighbor1-port> <cost-1> <neighbor2-port> <cost-2> .. [last] [<cost-change>]
+
 + 2. Run Distance Vector Poison Reverse Mode:
+
   python3 routenode.py dv <p> 0 <local-port> <neighbor1-port> <cost-1> <neighbor2-port> <cost-2> .. [last] [<cost-change>]
+
 + 3. Run Link State Mode:
+
   python3 routenode.py ls <r> <update-interval> <local-port> <neighbor1-port> <cost-1> <neighbor2-port> <cost-2> .. [last] [<cost-change>]
 
 routenode: Program name.
